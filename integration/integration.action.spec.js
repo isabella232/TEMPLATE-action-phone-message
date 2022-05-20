@@ -1,18 +1,18 @@
-const { eventMock } = require("../__mocks__/event-phone-message");
+const { makeEventMock } = require("../__mocks__/event-phone-message");
 
 const { onExecuteSendPhoneMessage } = require("./integration.action");
 
 describe("Action integration", () => {
-  let consoleLogMock;
+  let consoleLogMock, eventMock;
 
   beforeEach(() => {
     consoleLogMock = jest.spyOn(console, "log").mockImplementation();
+    eventMock = makeEventMock();
   });
 
   afterEach(() => {
     consoleLogMock.mockRestore();
     jest.clearAllMocks();
-    eventMock.secrets = {};
   });
 
   describe("onExecutePostLogin", () => {
