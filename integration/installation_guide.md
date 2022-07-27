@@ -16,10 +16,10 @@ To configure the integration with [[TODO: Your service name]]:
 1. Select **Add Integration** (at the top of this page).
 1. Read the necessary access requirements, and select **Continue**.
 1. Configure the integration using the following fields:
-    * [[TODO: Describe all configuration fields]]
-    * [[TODO: Describe all secret fields]]
+   * [[TODO: Describe all configuration fields]]
+   * [[TODO: Describe all secret fields]]
 1. Add the integration to your Library by selecting **Create**.
-1.  In the modal that appears, select the **Add to flow** link.
+1. In the modal that appears, select the **Add to flow** link.
 1. Drag the Action into the desired location in the flow.
 1. Select **Apply Changes**.
 
@@ -27,8 +27,8 @@ To configure the integration with [[TODO: Your service name]]:
 
 To use the SMS factor, your tenant needs to have MFA enabled globally or required for specific contexts using rules. To learn how to enable the MFA feature, see:
 
-- [Enable MFA](https://auth0.com/docs/secure/multi-factor-authentication/enable-mfa)
-- [Customize MFA](https://auth0.com/docs/secure/multi-factor-authentication/customize-mfa)
+* [Enable MFA](https://auth0.com/docs/secure/multi-factor-authentication/enable-mfa)
+* [Customize MFA](https://auth0.com/docs/secure/multi-factor-authentication/customize-mfa)
 
 Finally, configure the SMS factor to use the custom code and test the MFA flow.
 
@@ -48,7 +48,7 @@ If you do not receive the text message, look in the [tenant logs](https://auth0.
 
 **Make sure that:**
 
-- The Action is in the Send Phone Message flow.
-- The secrets match the ones you created in the steps above.
-- Your [[TODO: Your service name]] account is active (not suspended).
-- Your phone number is formatted using the [E.164 format](https://en.wikipedia.org/wiki/E.164).
+* The Action is in the Send Phone Message flow.
+* The secrets match the ones you created in the steps above.
+* Your [[TODO: Your service name]] account is active (not suspended).
+* Your phone number is formatted using the [E.164 format](https://en.wikipedia.org/wiki/E.164).
